@@ -123,6 +123,7 @@ a:hover {
 {
     color: rgb(138, 137, 137);
     background-color: rgb(53, 12, 12);
+    transition: all 0.3s ease-in-out;
 }
 
 .hamburger-icon.active span:first-child {
@@ -189,4 +190,13 @@ a:hover {
 .dark-mode {
     background: #222;
     color: #eeeeee;
+}
+.DarkModeText {
+    position: relative;
+    width: 60px;
+    height: 34px;
+    cursor: none;
+}
+.DarkModeText:hover {
+    cursor: none;
 }
