@@ -336,3 +336,30 @@ section {
 .section__text_p1 {
     text-align: center;
 }
+
+/* Expierience section */
+
+.sections_pics-container img {
+    height: 90%;
+    width: 90%;
+}
+
+.expierience-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.expierience-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem; /* Adjust spacing as needed */
+    margin-top: -1rem;
+}
+
+.expierience-container img.icon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
