@@ -332,3 +332,7 @@ section {
     height: 90%;
     width: 40%;
 }
+
+.section__text_p1 {
+    text-align: center;
+}
